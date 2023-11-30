@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/d22aa52ac9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- NavBar is possible to made without (container) and (row) class -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NATURE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide col-10 m-auto">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/nature-1" class="d-block w-100" height="550px" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/nature-2" class="d-block w-100" height="550px" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/nature-3" class="d-block w-100" height="550px" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center m-5">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, quam nihil. <br> Nobis ipsum
+                    veniam commodi?
+                </h3>
+            </div>
+        </div>
+
+        <!-- Feature -->
+        <div class="row justify-content-evenly pb-3">
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="fa-solid fa-code"></i></h1>
+                <h5>Built for developers</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus dolor, temporibus fuga at eos!
+                </p>
+            </div>
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="fa-regular fa-palette"></i></h1>
+                <h5>Built for developers</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus dolor, temporibus fuga at eos!
+                </p>
+            </div>
+            <div class="col-md-3 text-center mt-5">
+                <h1><i class="fa-regular fa-calendar-days"></i></h1>
+                <h5>Built for developers</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus dolor, temporibus fuga at eos!
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Skill measure -->
+        <div class="row justify-content-evenly py-5">
+            <div class="col-md-5 pt-3">
+                <img src="images/nature-2" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-5 pt-3">
+
+                <h5 class="mt-3">HTML</h5>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 25%"></div>
+                </div>
+
+                <h5 class="mt-3">CSS</h5>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 50%"></div>
+                </div>
+
+                <h5 class="mt-3">Tailwind CSS</h5>
+                <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-warning" style="width: 75%"></div>
+                </div>
+
+                <h5 class="mt-3">Bootstrap</h5>
+                <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 100%"></div>
+                </div>
+
+                <h5 class="mt-3">JS</h5>
+                <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 50%"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+        <div class="row justify-content-evenly pt-2 pb-5">
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Contact Form</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="Name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-5 mt-5">
+                <h3 class="mb-4">Address</h3>
+                <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Nam, dolores.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d117387.49006890424!2d72.34138113642577!3d23.157091587072795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1687026788325!5m2!1sen!2sin"  height="250" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        
+        <!-- Footer -->
+        <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">NATURE</h5>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam et laborum id, magni officiis dolores optio voluptates vero, hic mollitia cupiditate molestiae eius! Illum voluptas facere sunt ipsa laudantium voluptates!</p>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Important Links</h5>
+                <p class="">
+                    <a href="#" class="link-light text-decoration-none">Home</a><br>
+                    <a href="#" class="link-light text-decoration-none">About Us</a><br>
+                    <a href="#" class="link-light text-decoration-none">Cntact Us</a><br>
+                    <a href="#" class="link-light text-decoration-none">Our Client</a><br>
+                </p>
+            </div>
+            <div class="col-md-3 pt-4">
+                <h5 class="pb-2">Contact Us</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. <br>Nam, dolores.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
